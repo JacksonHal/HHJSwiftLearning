@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60EEF481EF8087200F5A0C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60EEF471EF8087200F5A0C8 /* AppDelegate.swift */; };
+		A60EEF4D1EF8087200F5A0C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60EEF4B1EF8087200F5A0C8 /* Main.storyboard */; };
+		A60EEF4F1EF8087200F5A0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60EEF4E1EF8087200F5A0C8 /* Assets.xcassets */; };
+		A60EEF521EF8087200F5A0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60EEF501EF8087200F5A0C8 /* LaunchScreen.storyboard */; };
+		A60EEF5D1EF8087200F5A0C8 /* _5_Swift_______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60EEF5C1EF8087200F5A0C8 /* _5_Swift_______Tests.swift */; };
+		A60EEF681EF8087200F5A0C8 /* _5_Swift_______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60EEF671EF8087200F5A0C8 /* _5_Swift_______UITests.swift */; };
+		A60EEF761EF80BC000F5A0C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60EEF751EF80BC000F5A0C8 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A60EEF591EF8087200F5A0C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60EEF3C1EF8087200F5A0C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60EEF431EF8087200F5A0C8;
+			remoteInfo = "35-Swift之网易新闻首页";
+		};
+		A60EEF641EF8087200F5A0C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60EEF3C1EF8087200F5A0C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60EEF431EF8087200F5A0C8;
+			remoteInfo = "35-Swift之网易新闻首页";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A60EEF441EF8087200F5A0C8 /* 35-Swift之网易新闻首页.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "35-Swift之网易新闻首页.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60EEF471EF8087200F5A0C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A60EEF4C1EF8087200F5A0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A60EEF4E1EF8087200F5A0C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A60EEF511EF8087200F5A0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A60EEF531EF8087200F5A0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60EEF581EF8087200F5A0C8 /* 35-Swift之网易新闻首页Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "35-Swift之网易新闻首页Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60EEF5C1EF8087200F5A0C8 /* _5_Swift_______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5_Swift_______Tests.swift"; sourceTree = "<group>"; };
+		A60EEF5E1EF8087200F5A0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60EEF631EF8087200F5A0C8 /* 35-Swift之网易新闻首页UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "35-Swift之网易新闻首页UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60EEF671EF8087200F5A0C8 /* _5_Swift_______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5_Swift_______UITests.swift"; sourceTree = "<group>"; };
+		A60EEF691EF8087200F5A0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60EEF751EF80BC000F5A0C8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60EEF411EF8087200F5A0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60EEF551EF8087200F5A0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60EEF601EF8087200F5A0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60EEF3B1EF8087200F5A0C8 = {
+			isa = PBXGroup;
+			children = (
+				A60EEF461EF8087200F5A0C8 /* 35-Swift之网易新闻首页 */,
+				A60EEF5B1EF8087200F5A0C8 /* 35-Swift之网易新闻首页Tests */,
+				A60EEF661EF8087200F5A0C8 /* 35-Swift之网易新闻首页UITests */,
+				A60EEF451EF8087200F5A0C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60EEF451EF8087200F5A0C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60EEF441EF8087200F5A0C8 /* 35-Swift之网易新闻首页.app */,
+				A60EEF581EF8087200F5A0C8 /* 35-Swift之网易新闻首页Tests.xctest */,
+				A60EEF631EF8087200F5A0C8 /* 35-Swift之网易新闻首页UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60EEF461EF8087200F5A0C8 /* 35-Swift之网易新闻首页 */ = {
+			isa = PBXGroup;
+			children = (
+				A60EEF471EF8087200F5A0C8 /* AppDelegate.swift */,
+				A60EEF751EF80BC000F5A0C8 /* HomeViewController.swift */,
+				A60EEF4B1EF8087200F5A0C8 /* Main.storyboard */,
+				A60EEF4E1EF8087200F5A0C8 /* Assets.xcassets */,
+				A60EEF501EF8087200F5A0C8 /* LaunchScreen.storyboard */,
+				A60EEF531EF8087200F5A0C8 /* Info.plist */,
+			);
+			path = "35-Swift之网易新闻首页";
+			sourceTree = "<group>";
+		};
+		A60EEF5B1EF8087200F5A0C8 /* 35-Swift之网易新闻首页Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A60EEF5C1EF8087200F5A0C8 /* _5_Swift_______Tests.swift */,
+				A60EEF5E1EF8087200F5A0C8 /* Info.plist */,
+			);
+			path = "35-Swift之网易新闻首页Tests";
+			sourceTree = "<group>";
+		};
+		A60EEF661EF8087200F5A0C8 /* 35-Swift之网易新闻首页UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A60EEF671EF8087200F5A0C8 /* _5_Swift_______UITests.swift */,
+				A60EEF691EF8087200F5A0C8 /* Info.plist */,
+			);
+			path = "35-Swift之网易新闻首页UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60EEF431EF8087200F5A0C8 /* 35-Swift之网易新闻首页 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60EEF6C1EF8087200F5A0C8 /* Build configuration list for PBXNativeTarget "35-Swift之网易新闻首页" */;
+			buildPhases = (
+				A60EEF401EF8087200F5A0C8 /* Sources */,
+				A60EEF411EF8087200F5A0C8 /* Frameworks */,
+				A60EEF421EF8087200F5A0C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "35-Swift之网易新闻首页";
+			productName = "35-Swift之网易新闻首页";
+			productReference = A60EEF441EF8087200F5A0C8 /* 35-Swift之网易新闻首页.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60EEF571EF8087200F5A0C8 /* 35-Swift之网易新闻首页Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60EEF6F1EF8087200F5A0C8 /* Build configuration list for PBXNativeTarget "35-Swift之网易新闻首页Tests" */;
+			buildPhases = (
+				A60EEF541EF8087200F5A0C8 /* Sources */,
+				A60EEF551EF8087200F5A0C8 /* Frameworks */,
+				A60EEF561EF8087200F5A0C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60EEF5A1EF8087200F5A0C8 /* PBXTargetDependency */,
+			);
+			name = "35-Swift之网易新闻首页Tests";
+			productName = "35-Swift之网易新闻首页Tests";
+			productReference = A60EEF581EF8087200F5A0C8 /* 35-Swift之网易新闻首页Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A60EEF621EF8087200F5A0C8 /* 35-Swift之网易新闻首页UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60EEF721EF8087200F5A0C8 /* Build configuration list for PBXNativeTarget "35-Swift之网易新闻首页UITests" */;
+			buildPhases = (
+				A60EEF5F1EF8087200F5A0C8 /* Sources */,
+				A60EEF601EF8087200F5A0C8 /* Frameworks */,
+				A60EEF611EF8087200F5A0C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60EEF651EF8087200F5A0C8 /* PBXTargetDependency */,
+			);
+			name = "35-Swift之网易新闻首页UITests";
+			productName = "35-Swift之网易新闻首页UITests";
+			productReference = A60EEF631EF8087200F5A0C8 /* 35-Swift之网易新闻首页UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60EEF3C1EF8087200F5A0C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HHJ;
+				TargetAttributes = {
+					A60EEF431EF8087200F5A0C8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GNZBVV9WD3;
+						ProvisioningStyle = Automatic;
+					};
+					A60EEF571EF8087200F5A0C8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GNZBVV9WD3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A60EEF431EF8087200F5A0C8;
+					};
+					A60EEF621EF8087200F5A0C8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GNZBVV9WD3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A60EEF431EF8087200F5A0C8;
+					};
+				};
+			};
+			buildConfigurationList = A60EEF3F1EF8087200F5A0C8 /* Build configuration list for PBXProject "35-Swift之网易新闻首页" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60EEF3B1EF8087200F5A0C8;
+			productRefGroup = A60EEF451EF8087200F5A0C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60EEF431EF8087200F5A0C8 /* 35-Swift之网易新闻首页 */,
+				A60EEF571EF8087200F5A0C8 /* 35-Swift之网易新闻首页Tests */,
+				A60EEF621EF8087200F5A0C8 /* 35-Swift之网易新闻首页UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60EEF421EF8087200F5A0C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60EEF521EF8087200F5A0C8 /* LaunchScreen.storyboard in Resources */,
+				A60EEF4F1EF8087200F5A0C8 /* Assets.xcassets in Resources */,
+				A60EEF4D1EF8087200F5A0C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60EEF561EF8087200F5A0C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60EEF611EF8087200F5A0C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60EEF401EF8087200F5A0C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60EEF481EF8087200F5A0C8 /* AppDelegate.swift in Sources */,
+				A60EEF761EF80BC000F5A0C8 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60EEF541EF8087200F5A0C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60EEF5D1EF8087200F5A0C8 /* _5_Swift_______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60EEF5F1EF8087200F5A0C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60EEF681EF8087200F5A0C8 /* _5_Swift_______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A60EEF5A1EF8087200F5A0C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60EEF431EF8087200F5A0C8 /* 35-Swift之网易新闻首页 */;
+			targetProxy = A60EEF591EF8087200F5A0C8 /* PBXContainerItemProxy */;
+		};
+		A60EEF651EF8087200F5A0C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60EEF431EF8087200F5A0C8 /* 35-Swift之网易新闻首页 */;
+			targetProxy = A60EEF641EF8087200F5A0C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A60EEF4B1EF8087200F5A0C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60EEF4C1EF8087200F5A0C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A60EEF501EF8087200F5A0C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60EEF511EF8087200F5A0C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A60EEF6A1EF8087200F5A0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A60EEF6B1EF8087200F5A0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A60EEF6D1EF8087200F5A0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				INFOPLIST_FILE = "35-Swift之网易新闻首页/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HHJ.-5-Swift-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A60EEF6E1EF8087200F5A0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				INFOPLIST_FILE = "35-Swift之网易新闻首页/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HHJ.-5-Swift-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A60EEF701EF8087200F5A0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				INFOPLIST_FILE = "35-Swift之网易新闻首页Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HHJ.-5-Swift-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/35-Swift之网易新闻首页.app/35-Swift之网易新闻首页";
+			};
+			name = Debug;
+		};
+		A60EEF711EF8087200F5A0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				INFOPLIST_FILE = "35-Swift之网易新闻首页Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HHJ.-5-Swift-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/35-Swift之网易新闻首页.app/35-Swift之网易新闻首页";
+			};
+			name = Release;
+		};
+		A60EEF731EF8087200F5A0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				INFOPLIST_FILE = "35-Swift之网易新闻首页UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HHJ.-5-Swift-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "35-Swift之网易新闻首页";
+			};
+			name = Debug;
+		};
+		A60EEF741EF8087200F5A0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				INFOPLIST_FILE = "35-Swift之网易新闻首页UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HHJ.-5-Swift-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "35-Swift之网易新闻首页";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60EEF3F1EF8087200F5A0C8 /* Build configuration list for PBXProject "35-Swift之网易新闻首页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60EEF6A1EF8087200F5A0C8 /* Debug */,
+				A60EEF6B1EF8087200F5A0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60EEF6C1EF8087200F5A0C8 /* Build configuration list for PBXNativeTarget "35-Swift之网易新闻首页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60EEF6D1EF8087200F5A0C8 /* Debug */,
+				A60EEF6E1EF8087200F5A0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A60EEF6F1EF8087200F5A0C8 /* Build configuration list for PBXNativeTarget "35-Swift之网易新闻首页Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60EEF701EF8087200F5A0C8 /* Debug */,
+				A60EEF711EF8087200F5A0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A60EEF721EF8087200F5A0C8 /* Build configuration list for PBXNativeTarget "35-Swift之网易新闻首页UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60EEF731EF8087200F5A0C8 /* Debug */,
+				A60EEF741EF8087200F5A0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60EEF3C1EF8087200F5A0C8 /* Project object */;
+}
