@@ -19,7 +19,7 @@ protocol SportProtocol : class {
     func playFootball()
 }
 
-//2.定义类，并且遵守协议：直接类名后加 : 协议名
+//2.定义类，并且遵守协议：直接类名后加 : 协议名(例如：: SportProtocol)
 class Person : SportProtocol {
     func playBasketball() {
         print("打篮球")
@@ -28,7 +28,7 @@ class Person : SportProtocol {
         print("踢足球")
     }
 }
-//如果创建的类有继承父类：在父类后面加 , 协议名
+//如果创建的类有继承父类：在父类后面加 , 协议名(例如：, SportProtocol)
 class Person2 : NSObject , SportProtocol {
     func playBasketball() {
         print("打篮球")
@@ -56,7 +56,7 @@ class Person3  {
 }
 
 //4.如何让协议中的方法是可选方法
-//optional是属于OC中的特性，如果协议中有可选的方法，那么必须在protocol前面加上@objc，也需要子在optional前面加上@objc
+//optional是属于OC中的特性，如果协议中有可选的方法，那么必须在protocol前面加上 @objc，也需要在optional前面加上 @objc
 @objc protocol TestProtocol {
    @objc optional func test()
 }

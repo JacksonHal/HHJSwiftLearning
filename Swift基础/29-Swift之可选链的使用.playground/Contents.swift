@@ -67,10 +67,9 @@ if let price = per.dog?.toy?.price {
 
 //3.2 给lnj的狗的玩具的价格重新赋值
 per.dog?.toy?.price = 69
-print(per.dog?.toy?.price)
+
 
 //3.3 可选链调用方法
-
 //方法一：太麻烦了
 if let dog = per.dog {
     if let toy = dog.toy {
