@@ -8,16 +8,41 @@
 
 import UIKit
 
-
+private let cellID = "NewsTableViewCell"
 
 /// 视图控制器
 class HomeViewController: UIViewController {
 
+    
+    // MARK: - 懒加载
+    fileprivate lazy var modelArray : [NewsModel] = [NewsModel]()
+    fileprivate lazy var tableView : UITableView = {[unowned self] in
+        let tableView = UITableView()
+        
+        tableView.frame = self.view.bounds
+        //设置代理
+        tableView.dataSource = self
+        tableView.rowHeight = 90
+        
+        return tableView
+    }()
+    
+    // MARK: - 系统方法
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //设置UI界面
+        
+        // 1.设置UI界面
         setNavigationController()
+        
+        // 2.创建tableView
+        view.addSubview(tableView)
+        
+        // 3.注册tableViewCell
+        tableView.register(UINib(nibName: "NewsTableViewCell", bundle: nil), forCellReuseIdentifier: cellID)
+        
+        // 3.请求数据
+        loadData()
     }
 
 }
@@ -41,7 +66,47 @@ extension HomeViewController {
 
 // MARK: - 监听点击事件
 extension HomeViewController {
+    
+    //导航栏搜索按钮的点击事件
     @objc fileprivate func searchButtonClick() {
         print("搜索内容")
     }
+}
+
+// MARK: - 网络请求数据
+extension HomeViewController {
+    fileprivate func loadData() {
+        HttpRequestTool.requestData("http://c.m.163.com/nc/article/list/T1348649079062/0-20.html", type: .get, parameters: nil) { (result : Any) in
+            //1.将Any类型转换成字典类型
+            guard let resultDict = result as? [String : Any] else { return }
+            
+            //2.根据T1348649079062字段获取数组
+            guard let resultArray = resultDict["T1348649079062"] as? [[String : Any]] else { return}
+            
+            //3.遍历数组,将数组中的字典获取到并转化为model，并将model存储在数组中
+            for dict in resultArray {
+                self.modelArray.append(NewsModel(dict: dict))
+            }
+            
+            //4.刷新数据
+            self.tableView.reloadData()
+        }
+    }
+}
+
+
+// MARK: - UITableViewDataSource
+extension HomeViewController:UITableViewDataSource {
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return modelArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! NewsTableViewCell
+        cell.newModel = modelArray[indexPath.row]
+        return cell
+        
+    }
+    
 }

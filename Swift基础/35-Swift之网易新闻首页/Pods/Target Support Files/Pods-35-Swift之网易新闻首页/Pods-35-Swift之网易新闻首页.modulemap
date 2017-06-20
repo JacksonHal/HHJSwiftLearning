@@ -1,0 +1,6 @@
+framework module Pods_35_Swift_______ {
+  umbrella header "Pods-35-Swift之网易新闻首页-umbrella.h"
+
+  export *
+  module * { export * }
+}

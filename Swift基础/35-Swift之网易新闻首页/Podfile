@@ -1,0 +1,10 @@
+
+platform :ios, '9.0'
+use_frameworks!  #导入swift项目中,此句话一定要带上
+
+target '35-Swift之网易新闻首页' do
+
+pod ‘Alamofire’
+pod ‘Kingfisher’  
+
+end

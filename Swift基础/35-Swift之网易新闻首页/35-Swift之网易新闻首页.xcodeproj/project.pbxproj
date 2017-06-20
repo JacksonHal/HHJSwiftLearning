@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DCA93511EF8C7430051152A /* HttpRequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA93501EF8C7430051152A /* HttpRequestTool.swift */; };
+		4DCA93531EF8D4090051152A /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA93521EF8D4090051152A /* NewsModel.swift */; };
+		4DCA93561EF8F7890051152A /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA93541EF8F7890051152A /* NewsTableViewCell.swift */; };
+		4DCA93571EF8F7890051152A /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCA93551EF8F7890051152A /* NewsTableViewCell.xib */; };
 		A60EEF481EF8087200F5A0C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60EEF471EF8087200F5A0C8 /* AppDelegate.swift */; };
 		A60EEF4D1EF8087200F5A0C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60EEF4B1EF8087200F5A0C8 /* Main.storyboard */; };
 		A60EEF4F1EF8087200F5A0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60EEF4E1EF8087200F5A0C8 /* Assets.xcassets */; };
@@ -14,6 +18,7 @@
 		A60EEF5D1EF8087200F5A0C8 /* _5_Swift_______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60EEF5C1EF8087200F5A0C8 /* _5_Swift_______Tests.swift */; };
 		A60EEF681EF8087200F5A0C8 /* _5_Swift_______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60EEF671EF8087200F5A0C8 /* _5_Swift_______UITests.swift */; };
 		A60EEF761EF80BC000F5A0C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60EEF751EF80BC000F5A0C8 /* HomeViewController.swift */; };
+		BB8845ABFEBFBA3B00359724 /* Pods_35_Swift_______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262CD791472558A55BEC9D64 /* Pods_35_Swift_______.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BE550CFB64F7D56F856F3B8 /* Pods-35-Swift之网易新闻首页.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-35-Swift之网易新闻首页.release.xcconfig"; path = "Pods/Target Support Files/Pods-35-Swift之网易新闻首页/Pods-35-Swift之网易新闻首页.release.xcconfig"; sourceTree = "<group>"; };
+		262CD791472558A55BEC9D64 /* Pods_35_Swift_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_35_Swift_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A60C1839BCAA56276E5026 /* Pods-35-Swift之网易新闻首页.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-35-Swift之网易新闻首页.debug.xcconfig"; path = "Pods/Target Support Files/Pods-35-Swift之网易新闻首页/Pods-35-Swift之网易新闻首页.debug.xcconfig"; sourceTree = "<group>"; };
+		4DCA93501EF8C7430051152A /* HttpRequestTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestTool.swift; sourceTree = "<group>"; };
+		4DCA93521EF8D4090051152A /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		4DCA93541EF8F7890051152A /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		4DCA93551EF8F7890051152A /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		A60EEF441EF8087200F5A0C8 /* 35-Swift之网易新闻首页.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "35-Swift之网易新闻首页.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60EEF471EF8087200F5A0C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A60EEF4C1EF8087200F5A0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +58,7 @@
 		A60EEF631EF8087200F5A0C8 /* 35-Swift之网易新闻首页UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "35-Swift之网易新闻首页UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60EEF671EF8087200F5A0C8 /* _5_Swift_______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5_Swift_______UITests.swift"; sourceTree = "<group>"; };
 		A60EEF691EF8087200F5A0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A60EEF751EF80BC000F5A0C8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A60EEF751EF80BC000F5A0C8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB8845ABFEBFBA3B00359724 /* Pods_35_Swift_______.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DCA934B1EF8C4BA0051152A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4DCA934D1EF8C4BA0051152A /* Model */,
+				4DCA934F1EF8C4BA0051152A /* View */,
+				4DCA934C1EF8C4BA0051152A /* Controller */,
+				4DCA934E1EF8C4BA0051152A /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4DCA934C1EF8C4BA0051152A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A60EEF751EF80BC000F5A0C8 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4DCA934D1EF8C4BA0051152A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DCA93521EF8D4090051152A /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DCA934E1EF8C4BA0051152A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4DCA93501EF8C7430051152A /* HttpRequestTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4DCA934F1EF8C4BA0051152A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DCA93541EF8F7890051152A /* NewsTableViewCell.swift */,
+				4DCA93551EF8F7890051152A /* NewsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A60EEF3B1EF8087200F5A0C8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +138,8 @@
 				A60EEF5B1EF8087200F5A0C8 /* 35-Swift之网易新闻首页Tests */,
 				A60EEF661EF8087200F5A0C8 /* 35-Swift之网易新闻首页UITests */,
 				A60EEF451EF8087200F5A0C8 /* Products */,
+				B327C2F870402D87EA9CEF92 /* Pods */,
+				BD3781E252175AFBC5CDABF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +156,8 @@
 		A60EEF461EF8087200F5A0C8 /* 35-Swift之网易新闻首页 */ = {
 			isa = PBXGroup;
 			children = (
+				4DCA934B1EF8C4BA0051152A /* Classes */,
 				A60EEF471EF8087200F5A0C8 /* AppDelegate.swift */,
-				A60EEF751EF80BC000F5A0C8 /* HomeViewController.swift */,
 				A60EEF4B1EF8087200F5A0C8 /* Main.storyboard */,
 				A60EEF4E1EF8087200F5A0C8 /* Assets.xcassets */,
 				A60EEF501EF8087200F5A0C8 /* LaunchScreen.storyboard */,
@@ -125,6 +184,23 @@
 			path = "35-Swift之网易新闻首页UITests";
 			sourceTree = "<group>";
 		};
+		B327C2F870402D87EA9CEF92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31A60C1839BCAA56276E5026 /* Pods-35-Swift之网易新闻首页.debug.xcconfig */,
+				1BE550CFB64F7D56F856F3B8 /* Pods-35-Swift之网易新闻首页.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD3781E252175AFBC5CDABF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				262CD791472558A55BEC9D64 /* Pods_35_Swift_______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A60EEF6C1EF8087200F5A0C8 /* Build configuration list for PBXNativeTarget "35-Swift之网易新闻首页" */;
 			buildPhases = (
+				1413E956F84408690B1C0E31 /* [CP] Check Pods Manifest.lock */,
 				A60EEF401EF8087200F5A0C8 /* Sources */,
 				A60EEF411EF8087200F5A0C8 /* Frameworks */,
 				A60EEF421EF8087200F5A0C8 /* Resources */,
+				A7233EB66E21820AA7FCCB90 /* [CP] Embed Pods Frameworks */,
+				0FB670FA94485E513D70BCC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,17 +273,20 @@
 					A60EEF431EF8087200F5A0C8 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = GNZBVV9WD3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					A60EEF571EF8087200F5A0C8 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = GNZBVV9WD3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A60EEF431EF8087200F5A0C8;
 					};
 					A60EEF621EF8087200F5A0C8 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = GNZBVV9WD3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A60EEF431EF8087200F5A0C8;
 					};
@@ -237,6 +319,7 @@
 			files = (
 				A60EEF521EF8087200F5A0C8 /* LaunchScreen.storyboard in Resources */,
 				A60EEF4F1EF8087200F5A0C8 /* Assets.xcassets in Resources */,
+				4DCA93571EF8F7890051152A /* NewsTableViewCell.xib in Resources */,
 				A60EEF4D1EF8087200F5A0C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +340,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FB670FA94485E513D70BCC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-35-Swift之网易新闻首页/Pods-35-Swift之网易新闻首页-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1413E956F84408690B1C0E31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7233EB66E21820AA7FCCB90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-35-Swift之网易新闻首页/Pods-35-Swift之网易新闻首页-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A60EEF401EF8087200F5A0C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCA93531EF8D4090051152A /* NewsModel.swift in Sources */,
 				A60EEF481EF8087200F5A0C8 /* AppDelegate.swift in Sources */,
+				4DCA93561EF8F7890051152A /* NewsTableViewCell.swift in Sources */,
 				A60EEF761EF80BC000F5A0C8 /* HomeViewController.swift in Sources */,
+				4DCA93511EF8C7430051152A /* HttpRequestTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +547,7 @@
 		};
 		A60EEF6D1EF8087200F5A0C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A60C1839BCAA56276E5026 /* Pods-35-Swift之网易新闻首页.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GNZBVV9WD3;
@@ -427,6 +562,7 @@
 		};
 		A60EEF6E1EF8087200F5A0C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE550CFB64F7D56F856F3B8 /* Pods-35-Swift之网易新闻首页.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GNZBVV9WD3;
@@ -516,6 +652,7 @@
 				A60EEF6E1EF8087200F5A0C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A60EEF6F1EF8087200F5A0C8 /* Build configuration list for PBXNativeTarget "35-Swift之网易新闻首页Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +661,7 @@
 				A60EEF711EF8087200F5A0C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A60EEF721EF8087200F5A0C8 /* Build configuration list for PBXNativeTarget "35-Swift之网易新闻首页UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +670,7 @@
 				A60EEF741EF8087200F5A0C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
